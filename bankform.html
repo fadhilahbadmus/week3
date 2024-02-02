@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank-Form</title>
+</head>
+<body>
+            
+            Gbadamosi Fadilat Adedamola fadhilahbadmus734@gmail.com
+               <h1>Bank Registration Form</h1> 
+            
+               <form action="POST" id="Bank-form">
+                <fieldset>
+                    <label for="Firstname" id="FirstName">FirstName</label>
+                    <input type="text" name="FirstName" id="firstName" placeholder="Enter your name" required>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="lastName" id="lastName">lastName</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Enter your lastName" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="Mother'sName" id="Mother'sName">Mother'sName</label>
+                    <input type="text" name="Mother'sName" id="Mother'sName" placeholder="Enter your Mother'sName" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="email" id="emaiL" placeholder="Enter your Email" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="State of Origin" id="State of Origin">State of Origin</label>
+                    <input type="text" name="State of Origin" id="State of Origin" placeholder="Enter your State of Origin" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="Nationalty" id="Nationalty">Nationalty</label>
+                    <input type="text" name="Nationalty" id="Nationalty" placeholder="Nationalty" required>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="Age" id="number-label">Age</label>
+                    <input type="number" name="number" id="number" placeholder="Age" min="12" max="40">
+                </fieldset>
+                
+                <fieldset>
+                    <label for="rital Status">Marital Status</label>
+                    <select name="Marital Status" id="Marital Status" >
+                        <option value="" disabled>Select your Marital Status</option>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Divorced">Divorced</option>
+                        <option value="Prefer not to say">Prefer not to say</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label for=""></label>
+                </fieldset>
+            
+            
+                <fieldset>
+                    <label for="Type of Account">Type of Account</label>
+                    <input type="checkbox" name="Improvement" id="Improvement"> Personal
+                    <input type="checkbox" name="Improvement" id="Improvement"> Business
+                </fieldset>
+            
+                <fieldset>
+                    <label for="Description">Brief Description About Yourself</label>
+                    <textarea name="Description" id="Description" cols="90" rows="10"></textarea>
+                </fieldset>
+            
+                <!-- <input type="submit" value="submit"> -->
+                <button type="submit" id="submit">Submit</button>
+            
+               </form>
+</body>
+</html>
